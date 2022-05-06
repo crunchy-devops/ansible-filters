@@ -1,4 +1,4 @@
-= Filters for Ansible Tutorial
+= Filters for Ansible: A Tutorial
 Herve Meftah <dockerlite@gmail.com>
 3.0, May 5, 2022: AsciiDoc article template
 :toc:
