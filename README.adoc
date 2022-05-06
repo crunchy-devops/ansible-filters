@@ -5,9 +5,10 @@ Herve Meftah <dockerlite@gmail.com>
 :icons: font
 :url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
 
-https://docs.ansible.com/ansible/latest/user_guide/playbooks_filters.html[Ansible filters] let you transform JSON data into YAML data, split a URL to extract the hostname, get the SHA1 hash of a string, add or multiply integers, and much more. You can use the Ansible-specific filters documented here to manipulate your data, or use any of the standard filters shipped with Jinja2 - see the list of built-in filters in the official Jinja2 template documentation.
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_filters.html[Ansible filters] let you transform JSON data into YAML data, split a URL to extract the hostname, get the SHA1 hash of a string, add or multiply integers, and much more. You can use the Ansible-specific filters documented here to manipulate your data, or use any of the standard filters shipped with Jinja2 - see the list of built-in filters in the official Jinja2 template documentation.    
 &nbsp;
-You can also use Python methods to transform data. You can create custom Ansible filters as plugins, though we generally welcome new filters into the ansible-core repo so everyone can use them.
+
+You can also use Python methods to transform data. You can create custom Ansible filters as plugins, though we generally welcome new filters into the ansible-core repo so everyone can use them.  
 Because templating happens on the Ansible controller, not on the target host, filters execute on the controller and transform data locally.
 
 === Basic commands
